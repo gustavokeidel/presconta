@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    
+    <title>Registration</title>
+</head>
+<body>
+    <div class="form">
+    
+        <h1>Create your access</h1>
+    
+        <form action="/add" method="POST">
+
+            <label for=""> Name 
+                <input type="text" name="name" required>
+            </label>  
+            <label for="">ID    
+                <input type="number" name="id" required>
+            </label>
+            <label for="">E-mail    
+                <input type="email" name="email" required>
+            </label>
+            <label for="">Birth Date    
+                <input type="date" name="date" required>
+            </label>
+            <label for="">Password    
+                <input type="password" name="pass"required>
+            </label>
+            <label for="">Confirm Password    
+                <input type="password" name="confirmpass"required>
+            </label>
+    
+            <label for="">
+                <input type="checkbox" name="" id="" required>
+                Accept shared information. <a href="policypage.html">Click here</a> for more information.
+            </label>
+    
+
+            <input type="submit" value="Send">
+    
+            <h4>Do you have a account?</h4>
+            <button type="button">Click Here</button>
+
+        </form>
+    </div>  
+     
+
+</body>
+</html>

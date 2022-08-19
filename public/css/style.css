@@ -1,0 +1,19 @@
+.form{
+
+text-align:center;
+color: red;
+}
+
+body{
+background-color: green;}
+
+label{
+display: block;
+margin: 10px;
+color: red;
+
+}
+
+h1{
+color: blue;
+}
