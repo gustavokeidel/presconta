@@ -1,0 +1,14 @@
+<h1>tested</h1>
+
+{{#each registry}}
+<h3>ID: {{id}}</h1>
+<h3>Name: {{name}}</h1>
+<h3>E-mail: {{email}}</h1>
+<h3>RN: {{rn}}</h1>
+<h3>Password: {{pass}}</h3>
+<h3>Birth Dante: {{Date}}</h1>
+<h5>Since: {{createdAt}}</h1>
+
+<a href="/delete/{{id}}"><button>Deletar</button></a>
+<hr>
+{{/each}}

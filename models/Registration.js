@@ -1,11 +1,10 @@
 const db = require('./Database')
-
-const Registration = db.sequelize('presconta',{
+const Registration = db.sequelize.define('presconta',{
     name: {
     type: db.Sequelize.STRING
     },
-    id: {
-    type: db.Sequelize.INT  
+    rn: {
+    type: db.Sequelize.STRING
     },
     email: {
     type: db.Sequelize.STRING
@@ -14,15 +13,16 @@ const Registration = db.sequelize('presconta',{
     type: db.Sequelize.DATE
     },
     pass: {
-    type: db.Sequelize.INT
+    type: db.Sequelize.STRING
     },
     confirmpass: {
-    type: db.Sequelize.INT
+    type: db.Sequelize.STRING
     },
     term: {
-    type: db.Sequelize.TINYINT(1)
-    },
-    
+    type: db.Sequelize.TEXT
+    }  
 })
+module.exports = Registration
 
-Post.sync({force: true})
+
+//Registration.sync({force: true})
