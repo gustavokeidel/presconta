@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    
+
+{{#each erros}}
+    <div class="alert alert-danger"> {{texto}} </div>
+{{else}}
+
+
+{{/each}}
     <title>Registration</title>
 </head>
 <body>
@@ -28,10 +27,10 @@
                 <input type="date" name="date" required>
             </label><br>
             <label for="">Password    
-                <input type="password" name="pass"required>
+                <input type="password" name="pass" required>
             </label><br>
             <label for="">Confirm Password    
-                <input type="password" name="confirmpass"required>
+                <input type="password" name="confirmpass" required>
             </label><br>
     
             <label for="">
