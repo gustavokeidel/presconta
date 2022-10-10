@@ -7,11 +7,14 @@
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
     "handlebars": "^4.5.0",
-    "mongoose": "^6.5.2",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
     "node.js": "^0.0.1-security",
-    "nodemon": "^2.0.20",
     "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
